@@ -8,5 +8,14 @@ module A15745105Ichinoki
   cm = gets
 
   bim = kg.to_f / (cm.to_f * 0.01) ** 2
-  puts bim.round(1)
+  puts "Your BMI is #{bim.round(1)}"
+
+  if bim < 18.5
+    puts "You are Thin"
+  elsif bim > 25
+    puts "You are Fat"
+  else
+    puts "You are Normal"
+  end
+
 end
