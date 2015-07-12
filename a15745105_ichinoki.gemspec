@@ -10,8 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["a1505si@aiit.ac.jp"]
 
   spec.summary       = %q{bmi is calculated.}
-  spec.description   = %q{Ichinokibmi.cal(kg, cm) ex)Ichinokibmi.cal(85.0, 175.5)}
-  spec.homepage      = ""
+  spec.description   = %q{bmi_cal_ichinoki(kg, cm) ex)bmi_cal_ichinoki(85.0, 175.5)}
+  spec.homepage      = "https://github.com/ShigeruIchinoki/a15745105_ichinoki"
+
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
