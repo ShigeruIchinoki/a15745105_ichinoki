@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Shigeru Ichinoki"]
   spec.email         = ["a1505si@aiit.ac.jp"]
 
-  spec.summary       = %q{bmi}
-  spec.description   = %q{bim input kg cm}
+  spec.summary       = %q{bmi is calculated.}
+  spec.description   = %q{Ichinokibmi.cal(kg, cm) ex)Ichinokibmi.cal(85.0, 175.5)}
   spec.homepage      = ""
   spec.license       = "MIT"
 
