@@ -9,5 +9,7 @@ class Object
       bim = kg.to_f / (cm.to_f * 0.01) ** 2
       puts "Your BMI is #{bim.round(1)}"
     end
+  rescue ArgumentError => ex
+      puts "Not input Sitrng!!"
   end
 end
